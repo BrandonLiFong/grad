@@ -1,0 +1,32 @@
+
+def string_opp(y):
+    # a. In one line, print the first and last characters in the string.
+    last_char = s[-1]
+    print((s[0]) + ' ' +last_char)
+
+    # b. Print the 6th character in the string.
+    print(s[5])
+
+    # c. Slice off first 5 and last 18 char. result: "listen to your heart"
+    f=slice(5,-18)
+    print(s[f])
+
+    # d. Find first instance of letter 'n' in string y.
+    print(s.find('n'))
+
+    # e. Search for '!' in string y. 
+    print(s.find('!'))
+
+    # f. Split the string on each space.
+    print(s.split())
+
+    # g. Combine elements of list z to generate the full sentence as in string y.
+    z=['just', 'listen', 'to', 'your', 'heart,', "that's", 'what', 'I', 'do']
+    merged = " ".join(z)
+    print(merged)
+
+# define the string
+s="just listen to your heart, that's what I do"
+
+# run the program
+string_opp(s)
