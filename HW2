@@ -1,0 +1,26 @@
+# Print the list in each part of the problem
+
+def days():
+    # a. Create an empty. Print the result.
+    days=[]
+    print(days)
+
+    # b. Add string element "Monday" to list 'days'.
+    days.append("Monday")
+    print(days)
+    # c. Add string elements "Wednesday", "Thursday", "Thursday", "Friday", "Saturday", "Sunday", "Monday" into list 'days' using one line of code. Print the result.
+    days.extend(["Wednesday", "Thursday", "Thursday", "Friday", "Saturday", "Sunday", "Monday"])
+    print(days)
+    # d. Insert the element "Tuesday" at the appropriate location in the list so that the days of the week are in order. Print the result.
+    days.insert(1,"Tuesday")
+    print(days)
+    # e. Remove the last item in the list. Print the result.
+    del days[-1]
+    print(days)
+    # f. Remove the extra "Thursday" from the list. Print the result.
+    del days[-4]
+    print(days)
+
+
+# Run the function
+days()
